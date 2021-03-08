@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>Responsive Sidebar - Bootstrap 5</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row min-vh-100 flex-column flex-md-row">
+        <aside class="col-12 col-md-3 col-xl-2 p-0 bg-dark flex-shrink-1">
+          <nav
+            class="navbar navbar-expand-md navbar-dark bg-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top"
+            id="sidebar"
+          >
+            <div class="text-center p-3">
+              <img
+                src="img/default-user.png"
+                alt="profile picture"
+                class="img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow"
+              />
+              <a href="#" class="navbar-brand mx-0 font-weight-bold text-nowrap"
+                >Andya</a
+              >
+            </div>
+            <button
+              type="button"
+              class="navbar-toggler border-0 order-1"
+              data-bs-toggle="collapse"
+              data-bs-target="#nav"
+              aria-control="nav"
+              aria-expanded="false"
+              aria-label="Toggle Navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse order-last" id="nav">
+              <ul class="navbar-nav flex-column w-100 justify-content-center">
+                <li class="nav-item">
+                  <a href="#" class="nav-link active">Edit Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Tasks</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Users Info</a>
+                </li>
+              </ul>
+            </div>
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white"
+                  ><i class="fab fa-twitter-square fa-lg"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white"
+                  ><i class="fab fa-instagram-square fa-lg"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white"
+                  ><i class="fas fa-envelope fa-lg"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white"
+                  ><i class="fab fa-linkedin fa-lg"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+        <main class="col px-0 flex-grow-1">
+          <div class="container py-3">
+            <article>
+              <h1 class="font-weight-light">Hi, Andya</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                minus, dignissimos iure, ducimus adipisci velit reiciendis nam
+                cumque culpa aliquid atque magni! Consectetur eos asperiores quo
+                hic aspernatur distinctio, voluptate natus enim aperiam iusto!
+                Tempora, neque earum. Rerum non, ut voluptates explicabo nam,
+                corrupti quae ea, eligendi obcaecati sit minima officia
+                necessitatibus atque aspernatur est iste odit consequatur porro
+                sapiente ipsa voluptatum quos. Consectetur error dignissimos
+                sunt obcaecati ratione fugiat, perspiciatis nemo, eum earum ex
+                voluptatibus molestiae voluptas esse! Quia?
+              </p>
+            </article>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
